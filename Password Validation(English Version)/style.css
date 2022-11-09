@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+*
+{
+box-sizing: border-box;
+font-family: 'Nanum Myeongjo', serif;
+}
+
+body
+{
+    background: linear-gradient(black,#AF0404,#FF0000,black) fixed;
+    background-size:cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content:center;
+   min-height: 100vh;
+   overflow: hidden;
+   white-space: nowrap;
+
+}
+.container
+{
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0.9, 0.9, 0.9, 1);
+}
+h2{
+    margin: 10px 0px 0px 0px;
+   
+    text-align: center;
+    font-size: 25px;
+    color:#AF0404 ;
+}
+/*#set
+{
+   display: block;
+   position: relative; 
+   margin: auto;
+}
+#count
+{
+    display: inline-block;
+    position: relative;
+    margin: 4%;
+    margin-bottom: 2%;
+    color: black;
+    font-size: 18px;
+    text-indent: 15px;
+    font-weight: bolder;
+    
+}*/
+#see
+{
+    display: inline-block;
+    color: rgb(72, 71, 71);
+    margin: auto;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right:40px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+#saw
+{
+    display: inline-block;
+    color: rgb(72, 71, 71);
+    margin: auto;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right:40px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+input[id='password']
+{
+    padding: 10px;
+    border: none;
+    width: 90%;
+    outline: none;
+    border-bottom: 5px solid #AF0404;
+    display: block;
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    top:20px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    user-select:auto ;
+    cursor:pointer;
+    transition-duration: 600ms;
+}
+ion-icon 
+{
+    font-size: 23px;
+    transition-duration: 600ms;
+    position: relative;
+    bottom: 65px;
+    
+}
+#check0,#check1,#check2,#check3,#check4
+{
+    display: block;
+    position: relative;
+    margin:4%;
+    color: red;
+    font-size: 15px;
+}
+#tik
+{
+    position:relative;
+    top:-5px;
+   
+}
+span
+{
+    margin: 10px;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+}
+input:hover
+{
+    border-bottom:5px solid #FF0000;
+}

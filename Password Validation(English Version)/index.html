@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Validation | softwarEsma</title>
+</head>
+<body>
+    
+<div class="container">
+    <h2>Password Validation</h2>
+    <input type="password" id="password" placeholder="Enter Password" oninput="check()">
+    <ion-icon id="saw" onclick="see()" name="eye-outline" style="display:none"></ion-icon>
+    <ion-icon id="see" onclick="see()" name="eye-off-outline"></ion-icon>
+    <br>
+    <!--<div id="set">
+        <div id="count">Length : 0</div>
+        <ion-icon id="saw" onclick="see()" name="eye-outline" style="display:none"></ion-icon>
+        <ion-icon id="see" onclick="see()" name="eye-off-outline"></ion-icon>
+    </div>-->
+    <div id="check0">
+        <ion-icon id="tik"
+         name="checkmark-outline"></ion-icon><span>Length more than 5</span>
+    </div>
+    <div id="check1">
+        <ion-icon id="tik"
+        name="checkmark-outline"></ion-icon><span>Length less than 15</span>
+    </div>
+    <div id="check2">
+        <ion-icon id="tik"
+        name="checkmark-outline"></ion-icon><span>Contains numerical character</span>
+    </div>
+    <div id="check3">
+        <ion-icon id="tik"
+        name="checkmark-outline"></ion-icon><span>Contains special character</span>
+    </div>
+    <div id="check4">
+        <ion-icon id="tik"
+        name="checkmark-outline"></ion-icon><span>Shouldn't contain spaces</span>
+    </div>
+
+
+</div>
+
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
